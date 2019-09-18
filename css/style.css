@@ -1,0 +1,58 @@
+.main-container{
+	width:100%;
+	
+	padding:5px;
+}
+.university{
+	margin: 20px;
+}
+.profiles{
+	width:100%;
+	/* float:left; */
+/* 	min-width:450px; */
+}
+.profile-container{
+/* 	border: 1px solid #000; */
+	/* background-color:#eee;
+	border-radius:5%; */
+	padding:5px;
+	margin:5px;font-size: 12pt;
+	/* float:left; */
+	clear:both;
+	height: 250px;
+}
+.profile-image{
+	float:left;
+	width: 15%;;
+}
+.profile-details{
+	padding:10px;
+	float:right;
+	width: 85%;}
+.profile-name{
+	
+}
+.profile-name{
+	font-weight:bold;
+	font-size:16pt;
+}
+.profile-position.p {
+	padding:5px;
+	font-size:12pt;
+}
+.profile-school{
+
+}
+
+@media only screen and (max-width:450px){
+	.main-container{
+	width:456px;
+	padding:5px;
+	}
+	.profiles{
+		width:100%;
+	}
+	.profile-container{
+		width: 100%;
+	}
+}
